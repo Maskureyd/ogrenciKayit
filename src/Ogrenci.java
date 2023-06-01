@@ -28,7 +28,7 @@ public class Ogrenci {
         this.gano = gano;
         this.ogrNo = ogrenciNoOlustur(girisYili, bolumKodu);
         if (gano > 4 || gano < 0) {
-            throw new IllegalArgumentException("Genel ortalama 4'ten büyük veya 0'dan küçük olamaz.");
+            throw new IllegalArgumentException("Genel ortalama 4'ten büyük veya 0'dan küçük olamaz. ");
         }
     }
 
