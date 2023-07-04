@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Ogrenci ogrenci = new Ogrenci(1973, 104);
 
-        Ogrenci ogrenci2 = new Ogrenci("Hakan", "Bilgisayar Müh.", 1985, 104);
+        Ogrenci ogrenci2 = new Ogrenci("Hakan", "Bilgisayar Müh. ", 1985, 104);
 
         Ogrenci ogrenci3 = new Ogrenci("Ayşe", "Makine Müh.", 1985, 104);
 
