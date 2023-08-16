@@ -8,7 +8,7 @@ public class Main {
 
         Ogrenci ogrenci4 = new Ogrenci("Elif", "Elektrik-Elektronik Müh.", 2020, 104, 1.98);
 
-        System.out.println("Öğrencilerin Bilgileri");
+        System.out.println("Öğrencilerin Bilgileri ");
 
         System.out.printf("OGR-1 %s %s %s %s %n", ogrenci.getAd(), ogrenci.getBolum(), ogrenci.getOgrNo(), ogrenci.getGano());
 
